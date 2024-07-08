@@ -1,0 +1,36 @@
+{
+  "name": "realtime_notification_system",
+  "version": "1.0.0",
+  "description": "In this advanced assignment, will create a microservices-based real-time notification system. The system will handle high-volume message processing and deliver real-time notifications to users. It will integrate message queues and implement real-time data streaming.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "./jest.setup.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chinm333"
+  },
+  "author": "Chinmoy Das",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.5",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5",
+    "supertest": "^7.0.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
